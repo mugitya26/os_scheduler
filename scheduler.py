@@ -119,7 +119,7 @@ class Scheduler:
         for t in self.finished:
             print(
                 f"{t.name}:({t.finish_time}-{t.arrive_time}=){t.finish_time - t.arrive_time}")
-        print("Average response time: {}\n".format(
+        print("Average turnaround time: {}\n".format(
             sum([t.finish_time - t.arrive_time for t in self.finished])/len(self.finished)))
         return True
 
