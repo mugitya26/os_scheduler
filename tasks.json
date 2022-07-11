@@ -1,0 +1,8 @@
+{
+    "tasks":[
+        {"name":"A", "time":0, "cost":2},
+        {"name":"B", "time":1, "cost":10},
+        {"name":"C", "time":3, "cost":7},
+        {"name":"D", "time":5, "cost":3}
+    ]
+}
