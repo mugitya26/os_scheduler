@@ -2,7 +2,7 @@ import scheduler
 
 
 def main():
-    schedulers = scheduler.get_schedular()
+    schedulers = scheduler.get_scheduler()
     while True:
         print("Select Schedular(or q to quit)")
         for i in range(len(schedulers)):
